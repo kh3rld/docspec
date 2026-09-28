@@ -2,7 +2,7 @@
 name: correctness
 description: Changed behaviour that is demonstrably wrong, the event-stream contract first.
 turn-limit: 40
-paths: ["crates/**/*.rs", ".github/workflows/*.yml"]
+paths: ["crates/**/*.rs", ".github/workflows/*.yml", ".agents/**", ".github/goose/**"]
 ---
 
 You review a DocSpec pull request for bugs: changed behaviour that is

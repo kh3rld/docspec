@@ -2,7 +2,7 @@
 name: docs-drift
 description: Documentation the change makes untrue -- format READMEs, ARCHITECTURE, SECURITY, the HTTP README.
 turn-limit: 30
-paths: ["crates/**/*.rs", "crates/*/README.md", "README.md", "ARCHITECTURE.md", "SECURITY.md", "TESTING.md", "CONTRIBUTING.md", "release-plz.toml", ".github/workflows/*.yml"]
+paths: ["crates/**/*.rs", "crates/*/README.md", "README.md", "ARCHITECTURE.md", "SECURITY.md", "TESTING.md", "CONTRIBUTING.md", "release-plz.toml", ".github/workflows/*.yml", ".agents/**"]
 ---
 
 You check one thing in a DocSpec pull request: that the documentation the

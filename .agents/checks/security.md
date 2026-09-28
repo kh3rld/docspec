@@ -2,7 +2,7 @@
 name: security
 description: Exploitable security holes in the readers, the HTTP server, the CLI and CI.
 turn-limit: 40
-paths: ["crates/**/*.rs", "crates/**/Cargo.toml", "Cargo.toml", "Dockerfile", ".github/workflows/*.yml"]
+paths: ["crates/**/*.rs", "crates/**/Cargo.toml", "Cargo.toml", "Dockerfile", ".github/workflows/*.yml", ".github/goose/**"]
 ---
 
 You review a DocSpec pull request for security holes an attacker can
